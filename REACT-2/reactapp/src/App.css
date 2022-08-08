@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    max-width: 0;
+    box-sizing: border-box;
+}
+.user-box{
+    width: 20%;
+    border: 1px solid red;
+}
+.PHP{
+    columns: blue;
+}
+.Javascript{
+    color: yellow;
+}
+.React{
+    color: red;
+}
+.Spin{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 10px solid red;
+    border-top: 10px solid black;
+    animation: spinner 1s linear infinite;
+}
+@keyframes spinner{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.spinner{
+    position: absolute;
+    top:50%;
+
+}
+.link{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20px;
+}
